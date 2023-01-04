@@ -23,8 +23,17 @@ Given the nature of the request as well as the assignment, I decided to drop the
 
 This finally allowed for the Vanpool table to be imported into a database called UTA_Vanpool
 
+### PART 2 Analysis With MySQL Workbench
 
+As I began to manipulate the data, a few questions arose which I decided were going to be the fundamental blocks of my analysis, the questions were the following:
 
+- Determine how many vehicles are in service ![Screenshot](SQL Statement for total number and result)
+
+- Find which vehicles are the most popular by scheduled miles
+- Locate most frequent start city
+- Locate most frequent end city
+
+I produced SQL statements that provided me with the necessary tables to be processed into visualization.
 
 ![Screenshot]()
 
