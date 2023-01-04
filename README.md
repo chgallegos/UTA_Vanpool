@@ -15,7 +15,14 @@ The following steps were determined in order to complete the full analysis:
 
 ----
 ## Results
-### PART 1 
+### PART 1 ETL With MySQL Workbench
+
+The first step of this part was to convert the provided .xlsx file into a .csv file as for it to allow the import into MySql Workbench. Upon import, the program gave me an error showing that vehicle year could not be imported as it was finding null values and did not allow for the import to complete. This led me to either complete the null values with "NULL" on the csv or it could have been a good opportunity to request more data for this table from the pertinent department. 
+
+Given the nature of the request as well as the assignment, I decided to drop the column for vehicle year since the final analysis wants to focus on customer use instead of current operational status of the vehicles.
+
+This finally allowed for the Vanpool table to be imported into a database called UTA_Vanpool
+
 
 
 
