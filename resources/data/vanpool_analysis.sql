@@ -61,3 +61,28 @@ FROM vanpool_data
 GROUP BY EndCity
 ORDER BY End_City_Frequency DESC;
 
+-- Service Date Frequency
+
+SELECT
+	ServiceDate,
+    COUNT(ServiceDate) as Service_Date_Frequency
+
+FROM vanpool_data
+GROUP BY ServiceDate
+ORDER BY ServiceDate DESC;
+
+
+-- Vehicle Usage by vehicle year
+
+SELECT 
+	VehicleId,
+    VehicleType,
+    VehicleYear,
+    ROUND(SUM(ScheduleDistanceMiles),0) as Total_Miles_Scheduled,
+    ROUND(SUM(ScheduleMinutes),0) as Total_Minutes_Scheduled
+FROM
+	vanpool_data
+
+GROUP BY vehicleId
+
+ORDER BY VehicleYear, Total_Miles_Scheduled ASC;    
