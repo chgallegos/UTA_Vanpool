@@ -10,7 +10,6 @@ The following steps were determined in order to complete the full analysis:
 - Create tables of interest based on recognition of patterns of relevant data
 - Load tables into Pandas Dataframe for further analysis using python libraries
 - Create graphs for visual representation of Dataframe findings
-- Run a Machine Learning linear regression model in order to determine usage growh and based on selected criteria
 - Load findings and create a Tableau dashboard in order to present to executive team
 
 ----
