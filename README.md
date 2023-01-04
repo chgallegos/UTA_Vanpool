@@ -2,7 +2,7 @@
 ----
 ## Overview
 
-The purpose of this analysis was to apply Business intelligence concepts in order to extract, merge, export, analyze and visualize information provided by Vanpool's Executive team which would allow to better understand the needs of  customers and help us improve the service.
+The purpose of this analysis was to apply Business intelligence concepts in order to extract, merge, export, analyze and visualize information provided by Vanpool's Executive team which would allow to better understand the needs of  customers and help UTA improve the service.
 
 The following steps were determined in order to complete the full analysis:
 
