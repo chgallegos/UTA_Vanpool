@@ -36,13 +36,13 @@ ORDER BY empty_seats ASC;
 
 -- City Usage Frequency
 SELECT	
-		StartCity as City_used,
+		StartCity as City_Used,
 		COUNT(StartCity) as City_Frequency
 
 FROM vanpool_data
 
 GROUP BY StartCity
-ORDER BY Start_City_Frequency DESC;
+ORDER BY City_Frequency DESC;
 
 
 -- Service Date Frequency
