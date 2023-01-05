@@ -36,9 +36,14 @@ I produced SQL statements that provided me with the necessary tables to be proce
 
 ![Screenshot]()
 
+### PART 3 Visualization on Tableau
+
+The visualization can be found in the followin link:
+
+https://public.tableau.com/views/UTA_Vanloop/TotalMinutesScheduled?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 
-### PART 2 
+
 
 
 ----

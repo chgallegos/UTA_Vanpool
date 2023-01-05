@@ -34,32 +34,16 @@ FROM vanpool_data
 WHERE TripDirection = "OUT"
 ORDER BY empty_seats ASC;
 
--- Most Frequent Start City
+-- City Usage Frequency
 SELECT	
-		ServiceDate,
-		VehicleId,
-        VehicleType,
-		StartCity,
-		COUNT(StartCity) as Start_City_Frequency
+		StartCity as City_used,
+		COUNT(StartCity) as City_Frequency
 
 FROM vanpool_data
 
 GROUP BY StartCity
 ORDER BY Start_City_Frequency DESC;
 
--- Most Frequent End City
-
-SELECT	
-		ServiceDate,
-		VehicleId,
-        VehicleType,
-		StartCity,
-		COUNT(EndCity) as End_City_Frequency
-
-FROM vanpool_data
-
-GROUP BY EndCity
-ORDER BY End_City_Frequency DESC;
 
 -- Service Date Frequency
 
