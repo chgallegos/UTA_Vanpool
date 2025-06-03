@@ -24,7 +24,10 @@ Given the nature of the request as well as the assignment, I decided to also inc
 
 As I began to manipulate the data, a few questions arose which I decided were going to be the fundamental blocks of my analysis, the questions were the following:
 
-- Determine how many vehicles are in service ![Screenshot](SQL Statement for total number and result)
+
+![What is the total amount of vehicles in service?](/resources/readme_images/sql_statement_vehicles_in_transit.png)
+
+![Vehicles in service](/resources/readme_images/vehicles_in_transit.png)
 
 - Find which vehicles are the most popular by scheduled miles
 - Locate most frequent start city
@@ -34,7 +37,7 @@ As I began to manipulate the data, a few questions arose which I decided were go
 
 I produced SQL statements that provided me with the necessary tables to be processed into visualization.
 
-![Screenshot]()
+![Queries](/Power%20Point/Resources/queries_1.png)
 
 ### PART 3 Visualization on Tableau
 
@@ -59,7 +62,7 @@ The visualizations developed are the following:
 
 The visualization can be found in the followin link:
 
-https://public.tableau.com/shared/28DB5794X?:display_count=n&:origin=viz_share_link
+https://public.tableau.com/shared/3RQ5RKCH7?:display_count=n&:origin=viz_share_link
 
 ### PART 4 Powerpoint Presentation
 
